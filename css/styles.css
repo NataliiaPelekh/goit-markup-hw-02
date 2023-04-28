@@ -1,0 +1,133 @@
+:root {
+  --primary-text-color: rgba(67, 68, 85, 1);
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #ffffff;
+  --text-color: #f4f4fd;
+}
+
+.body {
+  background-color: var(--primary-bg-color);
+  color: var(--title-text-color);
+}
+.site-nav,
+.contacts-nav,
+.feature-list,
+.work-list,
+.people-list {
+  list-style: none;
+}
+/* Navigation */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+.header-studio-logo {
+  color: var(--primary-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-bg-color);
+}
+.site-nav .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--title-text-color);
+}
+
+.site-nav.link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contacts-nav .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--title-text-color);
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--primary-text-color);
+}
+.hero {
+  background-color: var(--primary-text-color);
+}
+.hero-title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.button {
+  color: var(--accent-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+/* Feature section */
+.feature-list .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.feature-list .text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+.section .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+.section .subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+.section .text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.footer {
+  background-color: var(--title-text-color);
+}
+.footer-studio-logo {
+  color: var(--primary-bg-color);
+}
+.footer {
+  background-color: var(--title-text-color);
+}
