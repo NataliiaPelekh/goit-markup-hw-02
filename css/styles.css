@@ -53,6 +53,28 @@
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link-current {
+  color: var(--accent-color);
+}
+.portfolio-nav {
+  list-style: none;
+}
+.portfolio-nav .button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(--primary-bg-color);
+  color: var(--accent-color);
+}
+.portfolio-nav .button-current {
+  background-color: var(--accent-color);
+  color: var(--secondary-bg-color);
+}
+.services-list {
+  list-style: none;
+}
+
 .contacts-nav .link {
   font-family: "Roboto";
   font-style: normal;
@@ -78,7 +100,9 @@
   letter-spacing: 0.02em;
 }
 .button {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--secondary-bg-color);
+  border-color: transparent;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
