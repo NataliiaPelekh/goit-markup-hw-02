@@ -122,7 +122,8 @@ body {
 .team-section {
   background-color: var(--text-color);
 }
-.section .title {
+.section .title,
+.team-section .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
