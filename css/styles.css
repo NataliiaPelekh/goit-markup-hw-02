@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: rgba(67, 68, 85, 1);
+  --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --primary-bg-color: #e5e5e5;
@@ -60,11 +60,10 @@ body {
 .portfolio-nav {
   list-style: none;
 }
-.portfolio-nav .button {
-  font-family: "Roboto";
-  font-style: 400;
+.portfolio-nav .button-secondary {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   background-color: var(--primary-bg-color);
   color: var(--accent-color);
 }
@@ -77,11 +76,9 @@ body {
 }
 
 .contacts-nav .link {
-  font-family: "Roboto";
-  font-style: 400;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--title-text-color);
 }
 .contacts-nav .link:hover,
@@ -93,7 +90,6 @@ body {
 }
 .hero-title {
   color: #ffffff;
-  font-style: 400;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -106,7 +102,6 @@ body {
 
 .button-primary,
 .button-secondary {
-  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,34 +111,34 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .feature-list .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--primary-text-color);
+}
+.team-section {
+  background-color: var(--text-color);
 }
 .section .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .section .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .section .text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: #434455;
+  line-height: 1.5;
+  color: var(--primary-text-color);
 }
 .footer {
   background-color: var(--title-text-color);
