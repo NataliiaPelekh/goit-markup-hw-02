@@ -67,6 +67,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 .list {
@@ -109,7 +110,7 @@ body {
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-  color: var(--primary-text-color);
+  color: var(--hover-color);
 }
 .hero {
   background-color: var(--title-text-color);
@@ -127,19 +128,24 @@ body {
   color: var(--secondary-bg-color);
 }
 .button-primary:hover,
-.button-primary:focus {
+.button-primary:focus,
+.button-current:hover,
+.button-current:focus {
+  color: #ffffff;
   background-color: var(--hover-color);
 }
 .button-primary,
-.button-secondary {
+.button-secondary,
+.button-current {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  color: var(--accent-color);
+  background-color: var(--text-color);
 }
-
 /* Feature section */
 .feature-list .title {
   font-weight: 500;
@@ -152,6 +158,19 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--primary-text-color);
+}
+.service-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.service-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .team-section {
@@ -187,9 +206,19 @@ body {
   line-height: 1.5;
   color: var(--primary-text-color);
 }
-.footer {
+.footer-portfolio {
   background-color: var(--title-text-color);
 }
 .footer-studio-logo {
-  color: var(--primary-bg-color);
+  color: var(--text-color);
+}
+logo .link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  text-decoration: none;
 }
