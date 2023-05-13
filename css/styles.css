@@ -54,6 +54,10 @@ body {
   color: var(--title-text-color);
   text-decoration: none;
 }
+.link-current:hover,
+.link-current:focus {
+  color: var(--hover-color);
+}
 .header-studio-logo {
   color: var(--title-text-color);
 }
