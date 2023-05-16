@@ -35,11 +35,11 @@ body {
   color: var(--accent-color);
 }
 .link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
   text-decoration: none;
 }
 .link:hover,
@@ -199,9 +199,7 @@ body {
   text-transform: capitalize;
   color: var(--title-text-color);
 }
-.team-section .list {
-  background-color: #ffffff;
-}
+
 .team-section .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -213,6 +211,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
+}
+.team-member {
+  background-color: #ffffff;
 }
 .footer {
   background-color: var(--title-text-color);
