@@ -157,9 +157,6 @@ body {
   line-height: 1.5;
   color: var(--primary-text-color);
 }
-.services-list .link {
-  width: 360;
-}
 .services-list .title {
   font-weight: 500;
   font-size: 20px;
