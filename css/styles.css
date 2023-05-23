@@ -93,14 +93,8 @@ body {
 .portfolio-nav {
   list-style: none;
 }
-.portfolio-nav .button-secondary {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: var(--primary-bg-color);
-  color: var(--accent-color);
-}
-.portfolio-nav .button-current {
+
+.portfolio-nav .current {
   background-color: var(--accent-color);
   color: var(--secondary-bg-color);
 }
@@ -140,8 +134,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.button,
-.button-current {
+.button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
