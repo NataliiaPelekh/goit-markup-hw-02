@@ -83,12 +83,20 @@ body {
   list-style: none;
 }
 
-.site-nav.link:hover,
+.site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--hover-color);
 }
 .portfolio-nav {
   list-style: none;
+}
+.portfolio-nav .button {
+  color: var(--accent-color);
+  background-color: var(--text-color);
+}
+.portfolio-nav .button:hover,
+.portfolio-nav .button:focus {
+  color: #ffffff;
 }
 .services-list {
   list-style: none;
@@ -221,5 +229,6 @@ body {
   color: var(--text-color);
 }
 .footer .text {
+  line-height: 1.5;
   color: var(--text-color);
 }
