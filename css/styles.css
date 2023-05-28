@@ -93,6 +93,9 @@ body {
 .services-list {
   list-style: none;
 }
+.contacts {
+  font-style: normal;
+}
 
 .contacts-nav .link {
   font-size: 16px;
