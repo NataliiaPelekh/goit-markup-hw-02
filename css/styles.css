@@ -34,11 +34,6 @@ body {
   color: var(--accent-color);
 }
 .link {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
   text-decoration: none;
 }
 .link:hover,
@@ -70,7 +65,6 @@ body {
   color: var(--primary-bg-color);
 }
 .site-nav .link {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -124,7 +118,6 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--hover-color);
   background-color: var(--hover-color);
 }
 .button {
@@ -146,7 +139,6 @@ body {
   color: var(--title-text-color);
 }
 .feature-list .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
@@ -212,9 +204,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
-}
-.link {
-  text-decoration: none;
 }
 .footer-studio-logo {
   color: var(--text-color);
